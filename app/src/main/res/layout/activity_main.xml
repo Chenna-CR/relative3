@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="0"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:layout_above="@id/btnNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDivision"
+        android:layout_centerHorizontal="true"
+        android:text="@string/division" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMul"
+        android:text="@string/multiple"
+        android:layout_below="@id/btnNumber"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAdd"
+        android:text="@string/add"
+        android:layout_alignBaseline="@id/btnNumber"
+        android:layout_toStartOf="@id/btnNumber" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSub"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/btnNumber"
+        android:text="@string/subtract" />
+
+</RelativeLayout>

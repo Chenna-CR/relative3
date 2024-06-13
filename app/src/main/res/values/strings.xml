@@ -1,0 +1,12 @@
+
+<resources>
+    <string name="app_name">relative3</string>
+    <string name="enter_about_yourself">Enter about yourself</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_number">Enter your number</string>
+    <string name="number">0</string>
+    <string name="division">/</string>
+    <string name="multiple">*</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+</resources>
